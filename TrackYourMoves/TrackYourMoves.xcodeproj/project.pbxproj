@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0C2F7628745E490073A749 /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C2F7528745E490073A749 /* BodySkeleton.swift */; };
+		CEA272E828744EF100F74641 /* TrackYourMovesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA272E728744EF100F74641 /* TrackYourMovesApp.swift */; };
+		CEA272EA28744EF100F74641 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA272E928744EF100F74641 /* ContentView.swift */; };
+		CEA272EC28744EF300F74641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA272EB28744EF300F74641 /* Assets.xcassets */; };
+		CEA272EF28744EF300F74641 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA272EE28744EF300F74641 /* Preview Assets.xcassets */; };
+		CEA272F628744F6E00F74641 /* ArViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA272F528744F6E00F74641 /* ArViewContainer.swift */; };
+		CEA272F82874516600F74641 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA272F72874516600F74641 /* SkeletonJoint.swift */; };
+		CEA272FA2874526600F74641 /* SkeletonBones.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA272F92874526600F74641 /* SkeletonBones.swift */; };
+		CEA272FC2874568A00F74641 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA272FB2874568A00F74641 /* Bones.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE0C2F7528745E490073A749 /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
+		CEA272E428744EF100F74641 /* TrackYourMoves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackYourMoves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA272E728744EF100F74641 /* TrackYourMovesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackYourMovesApp.swift; sourceTree = "<group>"; };
+		CEA272E928744EF100F74641 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA272EB28744EF300F74641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA272EE28744EF300F74641 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA272F528744F6E00F74641 /* ArViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewContainer.swift; sourceTree = "<group>"; };
+		CEA272F72874516600F74641 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
+		CEA272F92874526600F74641 /* SkeletonBones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBones.swift; sourceTree = "<group>"; };
+		CEA272FB2874568A00F74641 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA272E128744EF100F74641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA272DB28744EF100F74641 = {
+			isa = PBXGroup;
+			children = (
+				CEA272E628744EF100F74641 /* TrackYourMoves */,
+				CEA272E528744EF100F74641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA272E528744EF100F74641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA272E428744EF100F74641 /* TrackYourMoves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA272E628744EF100F74641 /* TrackYourMoves */ = {
+			isa = PBXGroup;
+			children = (
+				CEA272E728744EF100F74641 /* TrackYourMovesApp.swift */,
+				CEA272E928744EF100F74641 /* ContentView.swift */,
+				CEA272F528744F6E00F74641 /* ArViewContainer.swift */,
+				CEA272F72874516600F74641 /* SkeletonJoint.swift */,
+				CEA272F92874526600F74641 /* SkeletonBones.swift */,
+				CEA272FB2874568A00F74641 /* Bones.swift */,
+				CE0C2F7528745E490073A749 /* BodySkeleton.swift */,
+				CEA272EB28744EF300F74641 /* Assets.xcassets */,
+				CEA272ED28744EF300F74641 /* Preview Content */,
+			);
+			path = TrackYourMoves;
+			sourceTree = "<group>";
+		};
+		CEA272ED28744EF300F74641 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEA272EE28744EF300F74641 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA272E328744EF100F74641 /* TrackYourMoves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA272F228744EF300F74641 /* Build configuration list for PBXNativeTarget "TrackYourMoves" */;
+			buildPhases = (
+				CEA272E028744EF100F74641 /* Sources */,
+				CEA272E128744EF100F74641 /* Frameworks */,
+				CEA272E228744EF100F74641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackYourMoves;
+			productName = TrackYourMoves;
+			productReference = CEA272E428744EF100F74641 /* TrackYourMoves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA272DC28744EF100F74641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CEA272E328744EF100F74641 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = CEA272DF28744EF100F74641 /* Build configuration list for PBXProject "TrackYourMoves" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA272DB28744EF100F74641;
+			productRefGroup = CEA272E528744EF100F74641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA272E328744EF100F74641 /* TrackYourMoves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA272E228744EF100F74641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA272EF28744EF300F74641 /* Preview Assets.xcassets in Resources */,
+				CEA272EC28744EF300F74641 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA272E028744EF100F74641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0C2F7628745E490073A749 /* BodySkeleton.swift in Sources */,
+				CEA272F628744F6E00F74641 /* ArViewContainer.swift in Sources */,
+				CEA272FC2874568A00F74641 /* Bones.swift in Sources */,
+				CEA272FA2874526600F74641 /* SkeletonBones.swift in Sources */,
+				CEA272EA28744EF100F74641 /* ContentView.swift in Sources */,
+				CEA272E828744EF100F74641 /* TrackYourMovesApp.swift in Sources */,
+				CEA272F82874516600F74641 /* SkeletonJoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEA272F028744EF300F74641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA272F128744EF300F74641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA272F328744EF300F74641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackYourMoves/Preview Content\"";
+				DEVELOPMENT_TEAM = SCFZURSF4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This is needed to track the movement with the camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.TrackYourMoves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA272F428744EF300F74641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackYourMoves/Preview Content\"";
+				DEVELOPMENT_TEAM = SCFZURSF4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This is needed to track the movement with the camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.TrackYourMoves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA272DF28744EF100F74641 /* Build configuration list for PBXProject "TrackYourMoves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA272F028744EF300F74641 /* Debug */,
+				CEA272F128744EF300F74641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA272F228744EF300F74641 /* Build configuration list for PBXNativeTarget "TrackYourMoves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA272F328744EF300F74641 /* Debug */,
+				CEA272F428744EF300F74641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA272DC28744EF100F74641 /* Project object */;
+}
